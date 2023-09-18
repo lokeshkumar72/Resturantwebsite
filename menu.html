@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="C:\Users\lokesh kumar singh\Desktop\resturant website\images\logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website | Food Menu</title>
+</head>
+
+<body>
+    <!--Header for laptop (start)-->
+    <header>
+        <div class="header">
+
+            <!--Sign up/Sign in Form-->
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <!-- sign up form  -->
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    <!-- sign in form  -->
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="#">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (start)-->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (end)-->
+            <div class="logo">
+                <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\logo1.png" alt="logo">
+            </div>
+            <!--Bar/cross in header for mobile/tablet (start)-->
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <!--Bar/cross in header for mobile/tablet (end)-->
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header for laptop (end)-->
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Food Menu</h1>
+            </div>
+            <div class="fav-head">
+                <!-- Add your all food items  -->
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images/pizza.jpg" alt="Food item">
+                        </div>
+                        <h3>Sea Food Pizza</h3>
+                        <p> A taste of the deep blue on every plate.</p>
+                        <p class="fav-price">₹300.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>Noodles</h3>
+                        <p>Slurp-worthy noodles that hit all the right notes </p>
+                        <p class="fav-price">₹150.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food3.jpg" alt="Food item">
+                        </div>
+                        <h3>Momos</h3>
+                        <p> Savoring every bite of these delightful dumplings</p>
+                        <p class="fav-price">₹120.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food4.jpg" alt="Food item">
+                        </div>
+                        <h3>Hyderabadi Biryani</h3>
+                        <p>Spice up your life, one fragrant bite at a time </p>
+                        <p class="fav-price">₹200.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\panipuri.jpg" alt="Food item">
+                        </div>
+                        <h3>Panipuri</h3>
+                        <p>Pop, crunch, and burst of flavor in every bite </p>
+                        <p class="fav-price">₹50.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images/item2.png" alt="Food item">
+                        </div>
+                        <h3>American Burger</h3>
+                        <p>Embrace the American dream, one burger at a time </p>
+                        <p class="fav-price">₹150.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\pasta.png" alt="Food item">
+                        </div>
+                        <h3>Italian Pasta</h3>
+                        <p>Twirl your way to Italian ecstasy, one pasta strand at a time </p>
+                        <p class="fav-price">₹180.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\Manchurian.jpg" alt="Food item">
+                        </div>
+                        <h3>Veg-Manchurian</h3>
+                        <p>Savor the fusion of flavors in every veggie-packed Manchurian bite </p>
+                        <p class="fav-price">₹170.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\chilli.png" alt="Food item">
+                        </div>
+                        <h3>Chilli Patato</h3>
+                        <p>Get ready to turn up the heat with our crispy and spicy chili potatoes </p>
+                        <p class="fav-price">₹180.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\thali.png" alt="Food item">
+                        </div>
+                        <h3>Veg Thali</h3>
+                        <p>An exquisite symphony of flavors and colors on one plate</p>
+                        <p class="fav-price">₹250.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\non-veg.jpg" alt="Food item">
+                        </div>
+                        <h3>Non-veg Thali</h3>
+                        <p>Satisfy your cravings with a feast of irresistible flavors in our non-veg thali</p>
+                        <p class="fav-price">₹300.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\ice cream.jpg" alt="Food item">
+                        </div>
+                        <h3>Ice Cream</h3>
+                        <p>Chilling out never tasted so good </p>
+                        <p class="fav-price">₹80.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+            </div>
+            <div>
+                <address>
+                        <p>Email: lokeshbsr544@gmail.com</p>
+                        <p>Mr. Lokesh Kumar Singh 132,</br>Alpha2, Greater Noida,</br> India </p>
+                    </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="C:\Users\lokesh kumar singh\Desktop\resturant website\images\logo1.png" alt="">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
