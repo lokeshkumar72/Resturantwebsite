@@ -1,2 +1,2 @@
-# Resturantwebsite
-Resturant website using HTML CSS JAVASCRIPT
+# Restaurant Website 
+Restaurant Website  using HTML CSS JAVASCRIPT
